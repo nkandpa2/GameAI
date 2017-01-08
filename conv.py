@@ -4,8 +4,10 @@ import numpy as np
 method = cv2.TM_SQDIFF
 
 # Read the images from the file
+
 small_image = cv2.imread('head.jpg',0)
 large_image = cv2.imread('large_image.jpg',0)
+
 
 result = cv2.matchTemplate(small_image, large_image, method)
 # We want the minimum squared difference

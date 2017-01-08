@@ -1,0 +1,5 @@
+We should add functionality for when the computer misses the shot to update its function/parameters so it can learn from mistakes. For example, after the shot is fired, see if you hit the fruit correctly by looking for the game to transition to the next fruit. If that is the case, begin the firing procedure again as normal. If a miss is detected, calculate the location of the arrowhead. 
+
+I guess at this point it could have been an error in either the arrow firing sequence or the image detection. Check if the arrowhead is in a different place from where the shooting function thought it would go, if so, update shooting function. 
+
+If the arrow is exactly where you thought it would go, do something to figure out a better place to aim for.
